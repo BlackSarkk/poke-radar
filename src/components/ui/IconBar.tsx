@@ -14,6 +14,12 @@ export default function IconBar() {
                     repeat: Infinity,
                     ease: "linear"
                 }}
+                whileHover={{
+                    scale: 1.2,
+                    transition: {
+                        duration: 0.3
+                    }
+                }}
 
                 className=' h-full flex justify-center items-center'>
 
@@ -22,7 +28,7 @@ export default function IconBar() {
             <div className='h-full flex text-7xl text-[#CCC0C0] font-keania justify-center items-center'>
                 PokeRadar
             </div>
-                <div className='border-2 border-transparent w-full h-full'></div>
-            </div>
-            )
+            <div className='border-2 border-transparent w-full h-full'></div>
+        </div>
+    )
 }
